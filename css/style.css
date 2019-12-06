@@ -56,26 +56,6 @@
     color: white;
 }
 
-.pawn {
-    content: "П";
-}
-
-.rock {
-    content: "Л";
-}
-.knight {
-    content: "к";
-}
-.officer {
-    content: "С";
-}
-.queen {
-    content: "Ф";
-}
-.king {
-    content: "К";
-}
-
 .bar-left {
     width: 50px;
 }
