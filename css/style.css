@@ -1,0 +1,185 @@
+.buttons {
+    width: 850px;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.board-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.board {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: Arial, serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.board-tile {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.odd:nth-child(2n) {
+    background-color: #ddd;
+}
+
+.odd:nth-child(2n+1) {
+    background-color: #bbb;
+}
+
+.even:nth-child(2n+1) {
+    background-color: #ddd;
+}
+
+.even:nth-child(2n) {
+    background-color: #bbb;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.pawn {
+    content: "П";
+}
+
+.rock {
+    content: "Л";
+}
+.knight {
+    content: "к";
+}
+.officer {
+    content: "С";
+}
+.queen {
+    content: "Ф";
+}
+.king {
+    content: "К";
+}
+
+.bar-left {
+    width: 50px;
+}
+
+.bar-left-letter {
+    width: 100%;
+    min-height: 100px;
+    font-family: Arial, serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100px;
+    text-align: center;
+    color: black;
+}
+
+.bar-bottom {
+    width: 800px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bar-bottom-letter {
+    width: 100px;
+    height: 50px;
+    font-family: Arial, serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.king.white.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 600px;
+}
+.queen.white.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -100px 0px;
+    background-size: 600px;
+}
+.officer.white.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -200px 0px;
+    background-size: 600px;
+}
+.knight.white.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -300px 0px;
+    background-size: 600px;
+}
+.rock.white.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -400px 0px;
+    background-size: 600px;
+}
+.pawn.white.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -500px 0px;
+    background-size: 600px;
+}
+
+.king.black.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    background-size: 600px;
+}
+.queen.black.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -100px -100px;
+    background-size: 600px;
+}
+.officer.black.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -200px -100px;
+    background-size: 600px;
+}
+.knight.black.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -300px -100px;
+    background-size: 600px;
+}
+.rock.black.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -400px -100px;
+    background-size: 600px;
+}
+.pawn.black.images {
+    background-image: url('../img/kisspng-chess-piece-pin-knight-clip-art-chess-pieces-5aad0726116029.2600275815212889980712.png');
+    background-repeat: no-repeat;
+    background-position: -500px -100px;
+    background-size: 600px;
+}
